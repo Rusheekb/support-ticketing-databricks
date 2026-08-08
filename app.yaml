@@ -1,0 +1,10 @@
+command: ["python", "app.py"]
+env:
+  - name: 'PGUSER'
+    value: '99dd4233-743a-4bea-98ef-25f82566cfae'
+  - name: 'PGHOST'
+    value: 'ep-still-king-d8p63bfr.database.us-east-2.cloud.databricks.com'
+  - name: 'LAKEBASE_ENDPOINT_NAME'
+    value: 'projects/support-ticketing-db/branches/production/endpoints/primary'
+  - name: 'PGDATABASE'
+    value: 'databricks_postgres'
